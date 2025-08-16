@@ -9,7 +9,7 @@ struct BatteryInfo {
 class BatteryMonitor {
     private var runLoopSource: CFRunLoopSource?
     private var callback: ((BatteryInfo) -> Void)?
-    private let lowPowerThreshold = 80  // Threshold for enabling Low Power Mode
+    private let lowPowerThreshold = 20  // Threshold for enabling Low Power Mode
 
     init(callback: @escaping (BatteryInfo) -> Void) {
         self.callback = callback
