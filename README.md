@@ -11,11 +11,7 @@ Open the project in Xcode and build it as Release (⇧⌘R).
 
 ### Option 2: Using the Command Line
 
-Use the following commands:
-
-```bash
-sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer
-```
+Use the following command:
 
 ```bash
 xcodebuild -scheme low-power-mac -configuration Release
