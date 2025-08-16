@@ -1,5 +1,5 @@
 # low-power-mac
-automatically switch low power mode on MacOS based on battery state
+Automatically switch low power mode on MacOS based on battery state
 
 ## Build
 
